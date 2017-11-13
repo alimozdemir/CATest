@@ -1,0 +1,23 @@
+{
+  "probe": {
+    "probeTypeName": "CodeChanges",
+    "requiresMultipleCodeVersions": true
+  },
+  "actuators": [
+    {
+      "type": "Email notification",
+      "emails": [
+        "ozdemirali@itu.edu.tr"
+      ]
+    }
+  ],
+  "host": {
+    "type": "class",
+    "path": "/src/master.java",
+    "name": "run",
+    "modifiers": "public",
+    "qualifiedName": "nodes.NodeInstance"
+  },
+  "label": "diff_node_instance_run",
+  "creationTime": "1480710050104"
+}
